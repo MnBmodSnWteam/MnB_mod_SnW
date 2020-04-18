@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Spice and Wolf"/>
+	<Id value="SpiceAndWolf"/>
+	<Version value="a0.0.1"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+    <Official value="false" />
+	<DependedModules>
+         <DependedModule Id="Native"/>
+         <DependedModule Id="SandBoxCore"/>
+         <DependedModule Id="Sandbox"/>
+         <DependedModule Id="CustomBattle"/>
+         <DependedModule Id="StoryMode" /> <!--这个也需要吗？我觉得不需要-->
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="Spice and Wolf Main"/>
+			<DLLName value="Nyohhira.SpiceAndWolf.dll"/>
+			<SubModuleClassType value="Nyohhira.SpiceAndWolf.SpiceAndWolf"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+				<Tag key="IsNoRenderModeElement" value="false" />
+			</Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="Spice and Wolf Random Event"/>
+			<DLLName value="Nyohhira.AuxiliaryMods.dll"/>
+			<SubModuleClassType value="Nyohhira.AuxiliaryMods.RandomEvent"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+				<Tag key="IsNoRenderModeElement" value="false" />
+			</Tags>
+		</SubModule>
+		<SubModule>
+			<Name value="Spice and Wolf Slave Trader"/>
+			<DLLName value="Nyohhira.AuxiliaryMods.dll"/>
+			<SubModuleClassType value="Nyohhira.AuxiliaryMods.SlaveTrader"/>
+			<Tags>
+				<Tag key="DedicatedServerType" value="none" />
+				<Tag key="IsNoRenderModeElement" value="false" />
+			</Tags>
+		</SubModule>
+	</SubModules>
+	<Xmls/>
+</Module>

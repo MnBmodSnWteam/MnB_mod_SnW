@@ -17,3 +17,5 @@ https://docs.qq.com/doc/DUG16cVh1eXVPSnBy
 c#在线教程  
 https://www.runoob.com/csharp/csharp-tutorial.html  
 https://www.bilibili.com/video/BV13b411b7Ht
+利用Harmony对dll进行patching  
+https://harmony.pardeike.net/articles/intro.html
